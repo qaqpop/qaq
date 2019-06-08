@@ -1,0 +1,19 @@
+package abstractCalsses;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person[] people=new Person[2];
+		
+		people[0] = new Employee("wkp"+ "", 1111.0, 1999, 02, 12);
+		people[1] = new Student("lichao","computer");
+		
+		for(Person p:people) {
+			System.out.println(p.getName()+","+p.getDescription());
+		}
+		
+		System.out.println(System.out);//输出java.io.PrintStream@4d3167f4
+	}
+
+}
